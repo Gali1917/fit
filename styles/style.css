@@ -1,0 +1,68 @@
+:root{
+    --color1: #515151;
+    --color2: orange;
+}
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+
+}
+body{
+    width: 100vw;
+    background-color: var(--color1);
+    font-size: 2rem;
+    color: white;
+    background-image: url("../recursos/img/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    box-shadow: 0px 4px 12px  var(--color2);
+    padding: 4px 8px;
+}
+
+header #logoHeader{
+    margin-right: 4px;
+}
+
+#accountHeader{
+    position: absolute;
+    right: 8px;
+
+}
+#accountHeader li{
+    font-size: 1.4rem;
+    list-style: none;
+
+}
+#accountHeader li:first-child{
+    margin-top: 4px;
+}
+#accountHeader li a{
+    text-decoration: none;
+    color: white;
+}
+#content{
+    padding-top: 100px;
+    padding-right: 8px;
+
+    background-color:#515151b4;
+    width: 100%;
+    height: 100vh;
+    text-align: end;
+}
+.article p{
+    margin: 8px 0;
+}
