@@ -37,23 +37,6 @@ header{
     margin-right: 2px;
 }
 
-#accountHeader{
-    position: absolute;
-    right: 8px;
-
-}
-#accountHeader li{
-    font-size: 1.4rem;
-    list-style: none;
-
-}
-#accountHeader li:first-child{
-    margin-top: 4px;
-}
-#accountHeader li a{
-    text-decoration: none;
-    color: white;
-}
 #content{
     padding-top: 100px;
     padding-right: 8px;
@@ -63,8 +46,59 @@ header{
     height: 100vh;
     text-align: end;
 }
-.article p{
-    margin: 8px 0;
+
+.article{
+    display: grid;
+    justify-content: center;
+}
+
+#iniciarSesion{
+    background-color: rgba(0, 0, 0, 0.699);
+    height: 350px;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px 4px var(--color2);
+    padding: 16px;
+    text-align: start;
+    position: relative;
+}
+
+#iniciarSesion h3{
+    text-align: center;
+    border-bottom: 1px solid var(--color2);
+    height: 40px;
+}
+
+#iniciarSesion img{
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    height: 40px;
+    width: 40px;
+}
+
+#formulario{
+    font-size: 1.6rem;
+    display: grid;
+    justify-content: space-evenly;
+    margin-top: 70px;
+} 
+#formulario input{
+    margin-bottom: 20px;
+    padding-left: 2px;
+}
+
+#button{
+    margin: 0 auto;
+    margin-top: 36px;
+    width: 150px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    height: 28px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 4px var(--color2);
+    
 }
 
 #footer{
