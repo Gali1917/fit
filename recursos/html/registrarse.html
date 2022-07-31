@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../../styles/styleRegistrarse.css">
 </head>
 <body>
+    <script src="../../js/index.js"></script>
     <div id="container">
         <header>
             <img src="../img/logo.png" alt="logo" id="logoHeader" width="40" height="40">
@@ -26,7 +27,7 @@
                         </a>
 
                         <h3>Registrarse</h3>
-                        <form id="formulario" action="/">
+                        <form id="formulario" action="">
                             <label for="getName">Nombre:</label>
                             <input id="getName" type="name" name="nombre" placeholder="Fit">
                             <label for="getEmail">Correo: </label>
@@ -35,7 +36,7 @@
                             <input id="getPass" type="password" name="contrasena" placeholder="********">
                             <label for="getPass">Repite la Contrasena: </label>
                             <input id="getPass" type="password" name="contrasena" placeholder="********">                          
-                            <input id="button" type="submit" value="Iniciar Sesion">
+                            <input id="button" type="submit" value="Registrar" onClick="registrar()">
                         </form>
                     </div>
                 </article>

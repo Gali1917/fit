@@ -53,7 +53,7 @@ header{
 }
 
 #iniciarSesion{
-    background-color: rgba(0, 0, 0, 0.699);
+    background-color: rgba(0, 0, 0, 0.7);
     height: 350px;
     width: 300px;
     border-radius: 12px;
@@ -86,6 +86,14 @@ header{
 #formulario input{
     margin-bottom: 20px;
     padding-left: 2px;
+
+}
+
+.formulario__input:focus{
+    background-color: black;
+    color: white;
+    outline: 1px solid rgba(255, 255, 255, 0.7);
+
 }
 
 #button{
